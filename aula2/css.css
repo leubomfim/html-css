@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+	border: none;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border-radius: 0;
+	list-style: none;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    margin-bottom: 73px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.header__wrapper{
+    max-width: 1240px;
+    margin: 0px auto;
+    width: 95%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 35px 0px 36px;
+}
+
+.header__logo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #EB5757;
+    font-weight: 700;
+}
+
+.header__list{
+     display: flex;
+     gap: 65px;
+}
+
+.header__link{
+     color: #A1A1A1;
+     font-weight: 700;
+}
+
+.main__wrapper{
+    max-width: 1240px;
+    width: 95%;
+    margin: 0px auto;
+}
+
+.main__text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.main__text-title{
+    font-weight: 900;
+    color: #515151;
+}
+
+.main__text-result{
+    color: #515151;
+    font-weight: 300;
+}
+
+.main__results{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 34px 20px;
+    padding-bottom: 93px;
+    justify-content: center;
+}
+
+.main__item{
+    width: 400px;
+}
+
+.main__item-image{
+    height: 270px;
+    width: 400px;
+}
+
+.main__item-image img{
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.15));
+    border-radius: 20px;
+}
+
+.main__item-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 0px;
+}
+
+.main__item-star{
+    display: flex;
+    align-items: center;
+}
+
+.main__item-star img{
+    margin-right: 12px;
+}
+
+.main__item-text{
+    font-weight: 500;
+    color: #515151;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main__item-text--super{
+    color: white;
+    background: #EB5757;
+    padding: 5px 16px;
+    border-radius: 10px;
+}
+
+.main__item-description{
+    font-size: 18px;
+    font-weight: 500;
+    color:#000000 ;
+}
+
+.contact{
+    background-color: #7A17F9;
+    
+}

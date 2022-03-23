@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title text">freeCodeCamp Survey Form</h1>
+            <p class="descripiton-text">Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <form class="data">
+            <div class="data-form">
+                <label class="data-name" for="name">Name</label>
+                <input type="text" name="name" id="name" class="data-control" placeholder="Enter your name" required>
+            </div>
+            <div class="data-form">
+                <label for="email" class="data-email">Email</label>
+                <input type="email" name="email" id="email" class="data-control" placeholder="Enter your email" required>
+            </div>
+            <div class="data-form">
+                <label for="age" class="data-age">Age <span class="span">(optional)</span></label>
+                <input type="number" name="age" id="age" class="data-control" 
+                min="10" max="99"  placeholder="Age">
+            </div>
+            <div class="data-form">
+              <p>Which option best describes your current role?</p>
+              <select name="drop" id="role" class="data-control">
+                <option  selected disabled value>Select current role</option>
+                <option value="student">Student</option>
+                <option value="job">Full Time Job</option>
+                <option value="learner">Full Time Learner</option>
+                <option value="preferNotTo">Prefer not to say</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="data-form">
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <label>
+                    <input name="recommend"
+                    type="radio" value="definitely" class="input-radio" checked  />Definitely</label>
+                  <label>
+                    <input name="recommend" type="radio" value="maybe" class="input-radio"/>Maybe</label>
+                  <label>
+                    <input name="recommend"
+                    type="radio"  value="not-sure" class="input-radio"/>Not sure</label>
+            </div>
+            <div class="data-form">
+                <p> What is your favorite feature of freeCodeCamp?</p>
+                <select name="like" id="like" class="data-control">
+                    <option  selected disabled value>Select an option</option>
+                    <option value="challenges">Challenges</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="openSource">Open Source</option>
+                </select>
+            </div>
+            <div class="data-form">
+               <p>What would you like to see improved?<span class="span"> (Check all that apply)</span></p>
+               <label>
+                   <input
+                   name="preferences" 
+                   type="checkbox" class="data-checkbox"
+                   value="frontE">Front-end Projects</label>
+                   <label>
+                       <input
+                       value="backE"
+                       class="data-checkbox"
+                       name="preferences"
+                       type="checkbox">Back-end Projects
+                   </label>
+                   <label>
+                       <input 
+                       value="dataV"
+                       class="data-checkbox"
+                       name="preferences"
+                       type="checkbox">Data Visualization
+                   </label>
+                   <label>
+                       <input 
+                       value="challenges"
+                       class="data-checkbox"
+                       name="preferences"
+                       type="checkbox">Challenges
+                   </label>
+                   <label>
+                       <input
+                        value="openS"
+                        class="data-checkbox"
+                        name="preferences"
+                        type="checkbox">Open Source Community
+                   </label>
+                   <label>
+                    <input
+                        value="gitterH"
+                        class="data-checkbox"
+                        name="preferences"
+                        type="checkbox">Gitter help rooms
+                   </label>
+                   <label>
+                    <input 
+                        value="videos"
+                        class="data-checkbox"
+                        name="preferences"
+                        type="checkbox">Videos
+                   </label>
+                   <label>
+                    <input 
+                        value="cityM"
+                        class="data-checkbox"
+                        name="preferences"
+                        type="checkbox">City Meetups
+                   </label>
+                   <label>
+                    <input 
+                        value="wiki"
+                        class="data-checkbox"
+                        name="preferences"
+                        type="checkbox">Wiki
+                   </label>
+                   <label>
+                    <input 
+                        value="forum"
+                        class="data-checkbox"
+                        name="preferences"
+                        type="checkbox">Forum
+                   </label>
+                   <label>
+                    <input 
+                        value="additionalC"
+                        class="data-checkbox"
+                        name="preferences"
+                        type="checkbox">Additional Courses
+                   </label>
+            </div>
+            <div class="data-form">
+               <p>Any comments or suggestions?</p>
+               <textarea name="text" id="text" class="data-comment" placeholder="Enter your comment here..." required ></textarea>
+            </div>
+            <div class="data-form">
+                <button type="submit" class="button" id="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

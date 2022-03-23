@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+	border: none;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border-radius: 0;
+	list-style: none;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+ }
+
+.header{
+	padding-top: 142px;
+	background-image: url(Background.png);
+}
+
+ .header__title{
+	background: #219653;
+	text-align: center;
+	color: white;
+	padding-top: 30px;
+	font-style: normal;
+	text-transform: uppercase;
+	padding-bottom: 31px;
+	font-size: 12.5px;
+}
+
+.address{
+	background: #6FCF97;
+	padding: 65px;
+}
+
+.address__list{
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 27px;
+	font-size: 18px;
+}
+
+.main__background{
+	border: 3px solid #219653;
+    box-sizing: border-box;
+	background: #FFFFFF;
+	margin: 51px auto 63px;
+	width: 550px;
+}
+
+.main__title{
+	color: #219653;
+	text-align: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.main__list{
+	text-align: center;
+	margin-top: 13px;
+	margin-bottom: 29px;
+}
+
+.cd{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.cd__item-image{
+	background: #6FCF97;
+	width: 360px;
+	display: flex;
+	justify-content: center;
+	box-shadow: 0px 0px 15px rgba(41, 33, 33, 0.5);
+	margin-bottom: 23px;
+}
+
+.cd__item-green{
+color: #219653;
+margin-bottom: 13px;
+}
+
+.social{
+	background: #6FCF97;
+	padding-bottom: 116px;
+	margin-top: 67px;
+	padding-top: 63px;
+}
+
+.social__item{
+	font-size: 18.5px;
+	text-align: center;
+}
+
+.social__item-image{
+	margin-top: 23px;
+	margin-right: 24px;
+}
+
+.footer{
+	padding-top: 32px;
+	background: #219653;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	padding-bottom: 32px;
+}

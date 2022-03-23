@@ -1,0 +1,42 @@
+* {
+	border: none;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border-radius: 0;
+	list-style: none;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.15));
+}
+
+div{
+    position: absolute;
+}
+
+.body__image-1{
+    left: 104px;
+    top: 103px;
+    z-index: 1;
+}
+
+.body__image-2{
+    left: 256px;
+    top: 202px;
+    z-index: 2;
+}
+
+.body__image-3{
+    top: 301px;
+    left: 408px;
+    z-index: 3;
+}
+
+.body__image-4{
+    top: 400px;
+    left: 544px;
+    z-index: 4;
+}
